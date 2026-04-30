@@ -23,12 +23,22 @@ It focuses on implementing and comparing various search algorithms and metaheuri
   * Comparative analysis across all algorithms from previous assignments (RHC, SAHC, SA, TS, EA, PSO).
   * Developed as a **Jupyter Notebook** (`.ipynb`) for interactive execution and inline visualization.
 
+* **[AI_tema4](./AI_tema4): Machine Learning - Classification & Regression**
+  * Implementation of **Random Forest** for classification (Iris dataset) and regression (Diabetes dataset).
+  * Extended **MLP** (sklearn) with varied hidden layer depth and neuron count per layer.
+  * 5-fold cross-validation across 6 parameter configurations per model.
+  * Key finding: severe overfitting in deep MLP on Diabetes (R2 = -0.30 with 3 layers vs R2 = 0.42 with 1 layer).
+  * Visualizations: confusion matrices, predicted vs real scatter plots, feature importance, learning curves.
+  * Comparative analysis between Decision Tree, MLP, and Random Forest from lab and homework.
+  * Developed as a **Jupyter Notebook** (`.ipynb`).
+
 ## 🛠️ Technologies & Tools
 
 * **Language:** Python 3.x
-* **Environment:** PyCharm (scripts for tema 1 & 2, Jupyter Notebook for tema 3)
+* **Environment:** PyCharm (scripts for tema 1 & 2, Jupyter Notebook for tema 3 & 4)
 * **Libraries:**
   * `NumPy`: For numerical operations and data handling.
   * `Matplotlib`: For visualizing algorithm evolution and performance graphs.
+  * `scikit-learn`: For machine learning models, cross-validation, and preprocessing (tema 4).
   * `nbformat`: For Jupyter Notebook support.
-* **Problem Instances:** Standard Knapsack and TSP datasets (e.g., `kroC100.tsp`, `rucsac-20.txt`, `rucsac-200.txt`).
+* **Problem Instances:** Standard Knapsack and TSP datasets (e.g., `kroC100.tsp`, `rucsac-20.txt`, `rucsac-200.txt`), Iris and Diabetes datasets from sklearn.
