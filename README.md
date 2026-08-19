@@ -1,7 +1,11 @@
 # Artificial Intelligence Coursework 🤖
 
-This repository contains my laboratory assignments for the Artificial Intelligence course (Spring 2026).
+This repository contains my independently developed laboratory assignments for the Artificial Intelligence course (Spring 2026).
 It focuses on implementing and comparing various search algorithms and metaheuristics for optimization problems.
+
+## Highlights
+- **Machine Learning ([tema4](./AI_tema4)):** Random Forest and MLP for classification and regression, with 5-fold cross-validation and comparative analysis. Notable finding: severe overfitting in deep MLP on the Diabetes dataset (R² = -0.30 with 3 hidden layers vs. R² = 0.42 with 1 layer).
+- **Evolutionary Algorithms ([tema3](./AI_tema3)):** EA with real-valued and permutation encoding, PSO, applied to Griewank / Knapsack / TSP.
 
 ## 📁 Repository Structure
 
